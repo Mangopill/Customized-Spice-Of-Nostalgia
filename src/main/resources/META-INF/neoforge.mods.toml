@@ -1,0 +1,41 @@
+modLoader="javafml"
+
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+
+issueTrackerURL="https://github.com/Mangopill/Customized/issues"
+
+[[mods]]
+modId="${mod_id}"
+
+version="${minecraft_version}-neoforge-${mod_version}"
+
+displayName="${mod_name}"
+
+logoFile="logo.png"
+
+authors="${mod_authors}"
+
+credits = "${mod_credits}"
+
+description='''${mod_description}'''
+
+displayURL = "https://github.com/Mangopill/Customized"
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version}"
+    ordering="NONE"
+    side="BOTH"

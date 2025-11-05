@@ -1,0 +1,50 @@
+{
+  "command.customized_spice_of_nostalgia.clear_recent_add": "Cleared recentAdd queue for %s.",
+  "command.customized_spice_of_nostalgia.get_food_expectation": "Food expectation for %s: %s.",
+  "command.customized_spice_of_nostalgia.set_food_expectation": "Set food expectation to %s for %s.",
+  "command.customized_spice_of_nostalgia.get_saturation_expectation": "Saturation expectation for %s: %s.",
+  "command.customized_spice_of_nostalgia.set_saturation_expectation": "Set saturation expectation to %s for %s.",
+  "command.customized_spice_of_nostalgia.reset_expectations": "Reset all expectations to initial values for %s",
+  "command.customized_spice_of_nostalgia.failure": "Player does not have PlayerFoodData.",
+
+  "tooltip.customized_spice_of_nostalgia.food_data": "Diversity Score：%s Food Expectation：%s Saturation Expectation：%s",
+
+  "fml.menu.mods.info.description.customized_spice_of_nostalgia": "A lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.",
+  "itemGroup.customized_spice_of_nostalgia": "Customized: Spice Of Nostalgia",
+
+  "customized_spice_of_nostalgia.configuration.expectation": "Expectation",
+  "customized_spice_of_nostalgia.config.initial_food_expectation": "Initial Food Expectation",
+  "customized_spice_of_nostalgia.config.initial_saturation_expectation": "Initial Saturation Expectation",
+  "customized_spice_of_nostalgia.config.food_expectation_decrease_rate": "Food Expectation Decrease Rate",
+  "customized_spice_of_nostalgia.config.saturation_expectation_decrease_rate": "Saturation Expectation Decrease Rate",
+  "customized_spice_of_nostalgia.config.food_expectation_growth_multiplier": "Food Expectation Growth Multiplier",
+  "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier": "Saturation Expectation Growth Multiplier",
+  "customized_spice_of_nostalgia.config.max_food_expectation": "Max Food Expectation",
+  "customized_spice_of_nostalgia.config.max_saturation_expectation": "Max Saturation Expectation",
+  "customized_spice_of_nostalgia.config.max_recent_add_size": "Max Recent Add Size",
+  "customized_spice_of_nostalgia.configuration.protection_mechanism": "Protection Mechanism",
+  "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry": "Cancel Calculation When Hungry",
+  "customized_spice_of_nostalgia.config.decrease_food_expectation_when_wake_up": "Decrease Food Expectation When Wake Up",
+  "customized_spice_of_nostalgia.config.decrease_saturation_expectation_when_wake_up": "Decrease Saturation Expectation When Wake Up",
+
+  "customized_spice_of_nostalgia.configuration.tooltip": "Tooltip",
+  "customized_spice_of_nostalgia.config.show_food_data_tooltip": "Show Player Food Data Tooltip",
+
+  "customized_spice_of_nostalgia.configuration.expectation.tooltip": "Expectation",
+  "customized_spice_of_nostalgia.config.initial_food_expectation.tooltip": "This value determines the player's initial food expectation.",
+  "customized_spice_of_nostalgia.config.initial_saturation_expectation.tooltip": "This value determines the player's initial saturation expectation.",
+  "customized_spice_of_nostalgia.config.food_expectation_decrease_rate.tooltip": "This value determines the rate at which food expectation decreases.",
+  "customized_spice_of_nostalgia.config.saturation_expectation_decrease_rate.tooltip": "This value determines the rate at which saturation expectation decreases.",
+  "customized_spice_of_nostalgia.config.food_expectation_growth_multiplier.tooltip": "Food expectation growth multiplier.",
+  "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier.tooltip": "Saturation expectation growth multiplier.",
+  "customized_spice_of_nostalgia.config.max_food_expectation.tooltip": "The maximum value for food expectation.",
+  "customized_spice_of_nostalgia.config.max_saturation_expectation.tooltip": "The maximum value for saturation expectation.",
+  "customized_spice_of_nostalgia.config.max_recent_add_size.tooltip": "This value determines the player's max recent add size.",
+  "customized_spice_of_nostalgia.configuration.protection_mechanism.tooltip": "Protection Mechanism",
+  "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry.tooltip": "When enabled, cancels the calculation when the player is enough hungry.",
+  "customized_spice_of_nostalgia.config.decrease_food_expectation_when_wake_up.tooltip": "The amount to decrease food expectation value when the player wakes up.",
+  "customized_spice_of_nostalgia.config.decrease_saturation_expectation_when_wake_up.tooltip": "The amount to decrease saturation expectation value when the player wakes up.",
+
+  "customized_spice_of_nostalgia.configuration.tooltip.tooltip": "Tooltip",
+  "customized_spice_of_nostalgia.config.show_food_data_tooltip.tooltip": "This boolean value corresponds to whether to show the player food data tooltip."
+}

@@ -1,0 +1,50 @@
+{
+  "command.customized_spice_of_nostalgia.clear_recent_add": "清除了 %s 的最近添加队列。",
+  "command.customized_spice_of_nostalgia.get_food_expectation": "%s 的饱食度期望为: %s。",
+  "command.customized_spice_of_nostalgia.set_food_expectation": "将 %s 的饱食度期望设置为 %s。",
+  "command.customized_spice_of_nostalgia.get_saturation_expectation": "%s 的饱和度期望为: %s。",
+  "command.customized_spice_of_nostalgia.set_saturation_expectation": "将 %s 的饱和度期望设置为 %s。",
+  "command.customized_spice_of_nostalgia.reset_expectations": "将所有期望重置为 %s 的初始值。",
+  "command.customized_spice_of_nostalgia.failure": "玩家没有 PlayerFoodData。",
+
+  "tooltip.customized_spice_of_nostalgia.food_data": "多样性评分：%s 饱食度期望：%s 饱和度期望：%s",
+
+  "fml.menu.mods.info.description.customized_spice_of_nostalgia": "一个轻量级模组，为原版游戏添加了智能进食惩罚系统，鼓励玩家准备更高级别的食物。",
+  "itemGroup.customized_spice_of_nostalgia": "食尚臻制：怀旧调味料",
+
+  "customized_spice_of_nostalgia.configuration.expectation": "期望",
+  "customized_spice_of_nostalgia.config.initial_food_expectation": "初始饱食度期望",
+  "customized_spice_of_nostalgia.config.initial_saturation_expectation": "初始饱和度期望",
+  "customized_spice_of_nostalgia.config.food_expectation_decrease_rate": "饱食度期望降低速率",
+  "customized_spice_of_nostalgia.config.saturation_expectation_decrease_rate": "饱和度期望降低速率",
+  "customized_spice_of_nostalgia.config.food_expectation_growth_multiplier": "饱食度期望增长倍率",
+  "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier": "饱和度期望增长倍率",
+  "customized_spice_of_nostalgia.config.max_food_expectation": "最大饱食度期望",
+  "customized_spice_of_nostalgia.config.max_saturation_expectation": "最大饱和度期望",
+  "customized_spice_of_nostalgia.config.max_recent_add_size": "近期食用记录最大大小",
+  "customized_spice_of_nostalgia.configuration.protection_mechanism": "保护机制",
+  "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry": "饥饿保护",
+  "customized_spice_of_nostalgia.config.decrease_food_expectation_when_wake_up": "醒来时降低饱食度期望",
+  "customized_spice_of_nostalgia.config.decrease_saturation_expectation_when_wake_up": "醒来时降低饱和度期望",
+
+  "customized_spice_of_nostalgia.configuration.tooltip": "提示",
+  "customized_spice_of_nostalgia.config.show_food_data_tooltip": "玩家食物数据提示",
+
+  "customized_spice_of_nostalgia.configuration.expectation.tooltip": "期望",
+  "customized_spice_of_nostalgia.config.initial_food_expectation.tooltip": "该值决定了玩家的初始饱食度期望值。",
+  "customized_spice_of_nostalgia.config.initial_saturation_expectation.tooltip": "该值决定了玩家的初始饱和度期望值。",
+  "customized_spice_of_nostalgia.config.food_expectation_decrease_rate.tooltip": "该值决定了饱食度期望下降的速度。",
+  "customized_spice_of_nostalgia.config.saturation_expectation_decrease_rate.tooltip": "该值决定了饱和度期望下降的速度。",
+  "customized_spice_of_nostalgia.config.food_expectation_growth_multiplier.tooltip": "饱食度期望增长倍率。",
+  "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier.tooltip": "饱和度期望增长倍率。",
+  "customized_spice_of_nostalgia.config.max_food_expectation.tooltip": "饱食度期望值的最大值。",
+  "customized_spice_of_nostalgia.config.max_saturation_expectation.tooltip": "饱和度期望值的最大值。",
+  "customized_spice_of_nostalgia.config.max_recent_add_size.tooltip": "此值确定玩家最近食用记录的最大添加大小。",
+  "customized_spice_of_nostalgia.configuration.protection_mechanism.tooltip": "保护机制",
+  "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry.tooltip": "当启用时，玩家十分饥饿时取消计算。",
+  "customized_spice_of_nostalgia.config.decrease_food_expectation_when_wake_up.tooltip": "玩家醒来时减少饱食度期望值的量。",
+  "customized_spice_of_nostalgia.config.decrease_saturation_expectation_when_wake_up.tooltip": "玩家醒来时减少饱和度期望值的量。",
+
+  "customized_spice_of_nostalgia.configuration.tooltip.tooltip": "提示",
+  "customized_spice_of_nostalgia.config.show_food_data_tooltip.tooltip": "此布尔值对应于是否显示玩家食物数据提示。"
+}
