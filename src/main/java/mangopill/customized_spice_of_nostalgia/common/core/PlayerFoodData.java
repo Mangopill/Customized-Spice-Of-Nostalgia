@@ -32,11 +32,6 @@ public class PlayerFoodData extends FoodData {
     }
 
     @Override
-    public void tick(Player player) {
-        super.tick(player);
-    }
-
-    @Override
     protected void add(int foodLevel, float saturationLevel) {
         recentAdd.offer(Pair.of(foodLevel, saturationLevel));
         while (recentAdd.size() > MAX_RECENT_ADD_SIZE.get()) {

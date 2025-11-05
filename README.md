@@ -3,18 +3,41 @@
 </p>
 <h1 align="center">
     Customized: Spice Of Nostalgia <br>
-    <a href="https://www.curseforge.com/minecraft/mc-mods/customized">
+    <a href="https://www.curseforge.com/minecraft/mc-mods/customized-spice-of-nostalgia">
         <img src="https://img.shields.io/curseforge/dt/1156112?logo=curseforge&label=CurseForge%20Downloads&labelColor=000000&color=F16436&logoColor=FFFFFF" alt="CurseForge Downloads">
     </a>
-    <a href="https://modrinth.com/project/customized">
-        <img src="https://img.shields.io/modrinth/dt/customized?logo=modrinth&label=Modrinth%20Downloads&labelColor=FFFFFF&color=00AF5C&logoColor=00AF5C" alt="Modrinth Downloads">
+    <a href="https://modrinth.com/project/customized-spice-of-nostalgia">
+        <img src="https://img.shields.io/modrinth/dt/customized-spice-of-nostalgia?logo=modrinth&label=Modrinth%20Downloads&labelColor=FFFFFF&color=00AF5C&logoColor=00AF5C" alt="Modrinth Downloads">
     </a>
-    <a href="https://www.curseforge.com/minecraft/mc-mods/customized/files">
+    <a href="https://www.curseforge.com/minecraft/mc-mods/customized-spice-of-nostalgia/files">
         <img src="https://img.shields.io/curseforge/v/1156112?label=Latest%20Version&labelColor=9BC4FC&color=FFFFFF" alt="Latest version">
     </a>
 </h1>
 
 **Customized: Spice Of Nostalgia** is a lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.
+
+🍽️ Intelligent Eating System
+Dynamic Food Expectations: Your character develops expectations for food quality based on what you eat regularly
+
+Diversity Scoring: Rewards players for eating a variety of different foods rather than sticking to the same meal
+
+Progressive Penalties: Repeatedly eating the same low-tier food reduces its effectiveness over time
+
+⚙️ Fully Customizable
+Adjustable initial food and saturation expectations
+
+Configurable growth rates and maximum thresholds
+
+Protection mechanisms for survival situations
+
+Tooltip displays to track your food data
+
+🛡️ Balanced Gameplay
+Hunger Protection: System disables when you're critically hungry to prevent unfair deaths
+
+Sleep Reset: Expectations naturally decrease after sleeping, simulating realistic appetite cycles
+
+Scalable Difficulty: The system encourages culinary progression without punishing new players
 
 ## FAQ
 - **Q:** Will you port to older versions of Minecraft?  
