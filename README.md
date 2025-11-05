@@ -16,28 +16,21 @@
 
 **Customized: Spice Of Nostalgia** is a lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.
 
-🍽️ Intelligent Eating System
-Dynamic Food Expectations: Your character develops expectations for food quality based on what you eat regularly
+## Features
 
-Diversity Scoring: Rewards players for eating a variety of different foods rather than sticking to the same meal
+### 🍽️ Intelligent Eating System
+- **Dynamic Food Expectations**: Your character develops expectations for food quality based on what you eat regularly
+- **Compatibility**: Any food items consumed by players will be affected, including block-based foods (e.g., cake).
 
-Progressive Penalties: Repeatedly eating the same low-tier food reduces its effectiveness over time
+### ⚙️ Fully Customizable
+- Adjustable initial food and saturation expectations
+- Configurable growth rates and maximum thresholds
+- Protection mechanisms for survival situations
+- Tooltip displays to track your food data
 
-⚙️ Fully Customizable
-Adjustable initial food and saturation expectations
-
-Configurable growth rates and maximum thresholds
-
-Protection mechanisms for survival situations
-
-Tooltip displays to track your food data
-
-🛡️ Balanced Gameplay
-Hunger Protection: System disables when you're critically hungry to prevent unfair deaths
-
-Sleep Reset: Expectations naturally decrease after sleeping, simulating realistic appetite cycles
-
-Scalable Difficulty: The system encourages culinary progression without punishing new players
+### 🛡️ Balanced Gameplay
+- **Hunger Protection**: System disables when you're critically hungry to prevent unfair deaths
+- **Sleep Reset**: Expectations naturally decrease after sleeping, simulating realistic appetite cycles
 
 ## FAQ
 - **Q:** Will you port to older versions of Minecraft?  
