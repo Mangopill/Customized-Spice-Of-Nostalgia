@@ -4,13 +4,13 @@
 <h1 align="center">
     Customized: Spice Of Nostalgia <br>
     <a href="https://www.curseforge.com/minecraft/mc-mods/customized-spice-of-nostalgia">
-        <img src="https://img.shields.io/curseforge/dt/1156112?logo=curseforge&label=CurseForge%20Downloads&labelColor=000000&color=F16436&logoColor=FFFFFF" alt="CurseForge Downloads">
+        <img src="https://img.shields.io/curseforge/dt/1378835?logo=curseforge&label=CurseForge%20Downloads&labelColor=000000&color=F16436&logoColor=FFFFFF" alt="CurseForge Downloads">
     </a>
     <a href="https://modrinth.com/project/customized-spice-of-nostalgia">
         <img src="https://img.shields.io/modrinth/dt/customized-spice-of-nostalgia?logo=modrinth&label=Modrinth%20Downloads&labelColor=FFFFFF&color=00AF5C&logoColor=00AF5C" alt="Modrinth Downloads">
     </a>
     <a href="https://www.curseforge.com/minecraft/mc-mods/customized-spice-of-nostalgia/files">
-        <img src="https://img.shields.io/curseforge/v/1156112?label=Latest%20Version&labelColor=9BC4FC&color=FFFFFF" alt="Latest version">
+        <img src="https://img.shields.io/curseforge/v/1378835?label=Latest%20Version&labelColor=9BC4FC&color=FFFFFF" alt="Latest version">
     </a>
 </h1>
 
