@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/Mangopill/Customized/blob/1.21.1-neoforge/src/main/resources/logo.png" alt="Customized" width="30%">
+    <img src="https://github.com/Mangopill/Customized-Spice-Of-Nostalgia/blob/1.21.1-neoforge/src/main/resources/logo.png" alt="Customized" width="30%">
 </p>
 <h1 align="center">
     Customized - A Cooking Experience Mod <br>
@@ -14,21 +14,7 @@
     </a>
 </h1>
 
-**Customized** is a mod for Minecraft that enhances the cooking system by adding new cooking methods, recipes, and dynamic food buffs. Cook delicious meals with various techniques and gain special buffs!
-
-## Features
-- **New Cooking Methods**: Custom cook and more!
-- **Food Buffs**: Gain special buffs like walking on powder snow, removing fire from your body, or preventing phantom spawns by eating specific dishes.
-- **Customizable Recipes**: Modify and create your own recipes.
-
-## Configuration
-You can modify the nutritional values, the nutrients they provide, and the corresponding buffs by editing the mod's config files.
-
-## GUI-Free Interaction
-The design philosophy of this mod is to minimize the use of GUIs and focus on more natural,
-immersive interactions within the game. In Customized, all cooking and food buff-related actions are achieved through simple item interactions,
-rather than complex menus. Players only need to place the required ingredients in the right spots to begin cooking and enjoy the benefits of the food.
-This approach preserves the core mechanics of Minecraft while enhancing the immersion of the gameplay.
+**Customized: Spice Of Nostalgia** is a lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.
 
 ## FAQ
 - **Q:** Will you port to older versions of Minecraft?  

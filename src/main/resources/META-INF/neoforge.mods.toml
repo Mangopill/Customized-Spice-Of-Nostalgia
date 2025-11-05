@@ -4,7 +4,7 @@ loaderVersion="${loader_version_range}"
 
 license="${mod_license}"
 
-issueTrackerURL="https://github.com/Mangopill/Customized/issues"
+issueTrackerURL="https://github.com/Mangopill/Customized-Spice-Of-Nostalgia/issues"
 
 [[mods]]
 modId="${mod_id}"
@@ -21,7 +21,7 @@ credits = "${mod_credits}"
 
 description='''${mod_description}'''
 
-displayURL = "https://github.com/Mangopill/Customized"
+displayURL = "https://github.com/Mangopill/Customized-Spice-Of-Nostalgia"
 
 [[mixins]]
 config="${mod_id}.mixins.json"
