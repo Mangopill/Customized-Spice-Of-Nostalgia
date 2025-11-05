@@ -2,7 +2,7 @@
     <img src="https://github.com/Mangopill/Customized-Spice-Of-Nostalgia/blob/1.21.1-neoforge/src/main/resources/logo.png" alt="Customized" width="30%">
 </p>
 <h1 align="center">
-    Customized - A Cooking Experience Mod <br>
+    Customized: Spice Of Nostalgia <br>
     <a href="https://www.curseforge.com/minecraft/mc-mods/customized">
         <img src="https://img.shields.io/curseforge/dt/1156112?logo=curseforge&label=CurseForge%20Downloads&labelColor=000000&color=F16436&logoColor=FFFFFF" alt="CurseForge Downloads">
     </a>
