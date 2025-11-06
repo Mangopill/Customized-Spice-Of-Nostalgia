@@ -23,8 +23,8 @@ public class CSONEvent {
     public static void onPlayerWakeUp(PlayerWakeUpEvent event) {
         Player player = event.getEntity();
         if (player.getFoodData() instanceof PlayerFoodData playerFoodData) {
-            playerFoodData.setFoodExpectation(Mth.clamp(playerFoodData.getFoodExpectation() - DECREASE_FOOD_EXPECTATION_WHEN_WAKE_UP.get().floatValue(), 0.0F, 20.0F));
-            playerFoodData.setSaturationExpectation(Mth.clamp(playerFoodData.getSaturationExpectation() - DECREASE_SATURATION_EXPECTATION_WHEN_WAKE_UP.get().floatValue(), 0.0F, 20.0F));
+            playerFoodData.setFoodExpectation(Mth.clamp(playerFoodData.getFoodExpectation() - DECREASE_FOOD_EXPECTATION_WHEN_WAKE_UP.get().floatValue(), 0.0F, MAX_FOOD_EXPECTATION.get().floatValue()));
+            playerFoodData.setSaturationExpectation(Mth.clamp(playerFoodData.getSaturationExpectation() - DECREASE_SATURATION_EXPECTATION_WHEN_WAKE_UP.get().floatValue(), 0.0F, MAX_SATURATION_EXPECTATION.get().floatValue()));
             playerFoodData.sync();
         }
     }

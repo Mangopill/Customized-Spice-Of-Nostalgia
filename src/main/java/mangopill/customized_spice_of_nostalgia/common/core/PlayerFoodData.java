@@ -48,8 +48,8 @@ public class PlayerFoodData extends FoodData {
     @Override
     public void addExhaustion(float exhaustion) {
         super.addExhaustion(exhaustion);
-        this.foodExpectation -= FOOD_EXPECTATION_DECREASE_RATE.get().floatValue();
-        this.saturationExpectation -= SATURATION_EXPECTATION_DECREASE_RATE.get().floatValue();
+        this.foodExpectation = Mth.clamp(foodExpectation - FOOD_EXPECTATION_DECREASE_RATE.get().floatValue(), 0.0F, MAX_FOOD_EXPECTATION.get().floatValue());
+        this.saturationExpectation = Mth.clamp(saturationExpectation - SATURATION_EXPECTATION_DECREASE_RATE.get().floatValue(), 0.0F, MAX_SATURATION_EXPECTATION.get().floatValue());
         sync();
     }
 
