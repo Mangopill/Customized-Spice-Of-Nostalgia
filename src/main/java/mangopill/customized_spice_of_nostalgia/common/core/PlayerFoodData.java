@@ -65,10 +65,10 @@ public class PlayerFoodData extends FoodData {
         foodExpectation = Math.clamp(foodExpectation + calculateComprehensiveDuplication() * modifiedFoodLevel * FOOD_EXPECTATION_GROWTH_MULTIPLIER.get().floatValue(), 0.0F, MAX_FOOD_EXPECTATION.get().floatValue());
         saturationExpectation = Math.clamp(saturationExpectation + calculateComprehensiveDuplication() * modifiedSaturationLevel * SATURATION_EXPECTATION_GROWTH_MULTIPLIER.get().floatValue(), 0.0F, MAX_SATURATION_EXPECTATION.get().floatValue());
         if (foodLevel < foodExpectation) {
-            modifiedFoodLevel = (int) (modifiedFoodLevel * (1.0F - Math.clamp(foodExpectation - modifiedFoodLevel * calculateComprehensiveDuplication(), 0.0F, 1.0F)));
+            modifiedFoodLevel = (int) (modifiedFoodLevel * (1.0F - Math.clamp((foodExpectation - modifiedFoodLevel * calculateComprehensiveDuplication()), 0.0F, NUTRITION_REDUCTION_CAP.get().floatValue())));
         }
         if (saturationLevel < saturationExpectation) {
-            modifiedSaturationLevel = modifiedSaturationLevel * (1.0F - Math.clamp(saturationExpectation - modifiedSaturationLevel * calculateComprehensiveDuplication(), 0.0F, 1.0F));
+            modifiedSaturationLevel = modifiedSaturationLevel * (1.0F - Math.clamp(saturationExpectation - modifiedSaturationLevel * calculateComprehensiveDuplication(), 0.0F, SATURATION_REDUCTION_CAP.get().floatValue()));
         }
         return new ModifiedFoodData(modifiedFoodLevel, modifiedSaturationLevel, foodExpectation, saturationExpectation);
     }

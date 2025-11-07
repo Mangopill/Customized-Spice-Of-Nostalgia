@@ -17,6 +17,8 @@ public final class CustomizedSpiceOfNostalgiaConfig {
     public static final ModConfigSpec.DoubleValue SATURATION_EXPECTATION_GROWTH_MULTIPLIER;
     public static final ModConfigSpec.DoubleValue MAX_FOOD_EXPECTATION;
     public static final ModConfigSpec.DoubleValue MAX_SATURATION_EXPECTATION;
+    public static final ModConfigSpec.DoubleValue NUTRITION_REDUCTION_CAP;
+    public static final ModConfigSpec.DoubleValue SATURATION_REDUCTION_CAP;
     public static final ModConfigSpec.IntValue MAX_RECENT_ADD_SIZE;
     public static final String PROTECTION_MECHANISM = "protection_mechanism";
     public static final ModConfigSpec.BooleanValue CANCEL_CALCULATION_WHEN_HUNGRY;
@@ -70,6 +72,16 @@ public final class CustomizedSpiceOfNostalgiaConfig {
                 .gameRestart()
                 .translation(MOD_ID + ".config.max_saturation_expectation")
                 .defineInRange("maxSaturationExpectation", 20.0D, 0.0D, 100.0D);
+        NUTRITION_REDUCTION_CAP = commonBuilder
+                .comment("The maximum reduction ratio for nutrition.")
+                .gameRestart()
+                .translation(MOD_ID + ".config.nutrition_reduction_cap")
+                .defineInRange("nutritionReductionCap", 0.5D, 0.0D, 1.0D);
+        SATURATION_REDUCTION_CAP = commonBuilder
+                .comment("The maximum reduction ratio for saturation.")
+                .gameRestart()
+                .translation(MOD_ID + ".config.saturation_reduction_cap")
+                .defineInRange("saturationReductionCap", 0.5D, 0.0D, 1.0D);
         MAX_RECENT_ADD_SIZE = commonBuilder
                 .comment("This value determines the player's max recent add size.")
                 .gameRestart()

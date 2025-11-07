@@ -7,7 +7,7 @@
   "command.customized_spice_of_nostalgia.reset_expectations": "Reset all expectations to initial values for %s",
   "command.customized_spice_of_nostalgia.failure": "Player does not have PlayerFoodData.",
 
-  "tooltip.customized_spice_of_nostalgia.food_data": "Diversity Score：%s Food Expectation：%s Saturation Expectation：%s",
+  "tooltip.customized_spice_of_nostalgia.food_data": "Current Diversity Score：%s Food Expectation：%s Saturation Expectation：%s",
 
   "fml.menu.mods.info.description.customized_spice_of_nostalgia": "A lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.",
   "itemGroup.customized_spice_of_nostalgia": "Customized: Spice Of Nostalgia",
@@ -21,6 +21,8 @@
   "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier": "Saturation Expectation Growth Multiplier",
   "customized_spice_of_nostalgia.config.max_food_expectation": "Max Food Expectation",
   "customized_spice_of_nostalgia.config.max_saturation_expectation": "Max Saturation Expectation",
+  "customized_spice_of_nostalgia.config.nutrition_reduction_cap": "Nutrition Reduction Cap",
+  "customized_spice_of_nostalgia.config.saturation_reduction_cap": "Saturation Reduction Cap",
   "customized_spice_of_nostalgia.config.max_recent_add_size": "Max Recent Add Size",
   "customized_spice_of_nostalgia.configuration.protection_mechanism": "Protection Mechanism",
   "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry": "Cancel Calculation When Hungry",
@@ -39,6 +41,8 @@
   "customized_spice_of_nostalgia.config.saturation_expectation_growth_multiplier.tooltip": "Saturation expectation growth multiplier.",
   "customized_spice_of_nostalgia.config.max_food_expectation.tooltip": "The maximum value for food expectation.",
   "customized_spice_of_nostalgia.config.max_saturation_expectation.tooltip": "The maximum value for saturation expectation.",
+  "customized_spice_of_nostalgia.config.nutrition_reduction_cap.tooltip": "The maximum reduction ratio for nutrition.",
+  "customized_spice_of_nostalgia.config.saturation_reduction_cap.tooltip": "The maximum reduction ratio for saturation.",
   "customized_spice_of_nostalgia.config.max_recent_add_size.tooltip": "This value determines the player's max recent add size.",
   "customized_spice_of_nostalgia.configuration.protection_mechanism.tooltip": "Protection Mechanism",
   "customized_spice_of_nostalgia.config.cancel_calculation_when_hungry.tooltip": "When enabled, cancels the calculation when the player is enough hungry.",
