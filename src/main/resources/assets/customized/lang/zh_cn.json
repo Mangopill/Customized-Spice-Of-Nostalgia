@@ -1,0 +1,14 @@
+{
+  "command.customized_spice_of_nostalgia.clear_recent_add": "清除了 %s 的最近添加队列。",
+  "command.customized_spice_of_nostalgia.get_food_expectation": "%s 的饱食度期望为: %s。",
+  "command.customized_spice_of_nostalgia.set_food_expectation": "将 %s 的饱食度期望设置为 %s。",
+  "command.customized_spice_of_nostalgia.get_saturation_expectation": "%s 的饱和度期望为: %s。",
+  "command.customized_spice_of_nostalgia.set_saturation_expectation": "将 %s 的饱和度期望设置为 %s。",
+  "command.customized_spice_of_nostalgia.reset_expectations": "将所有期望重置为 %s 的初始值。",
+  "command.customized_spice_of_nostalgia.failure": "玩家没有 PlayerFoodData。",
+
+  "tooltip.customized_spice_of_nostalgia.food_data": "当前多样性评分：%s 饱食度期望：%s 饱和度期望：%s",
+
+  "fml.menu.mods.info.description.customized_spice_of_nostalgia": "一个轻量级模组，为原版游戏添加了智能进食惩罚系统，鼓励玩家准备更高级别的食物。",
+  "itemGroup.customized_spice_of_nostalgia": "食尚臻制：怀旧调味料"
+}

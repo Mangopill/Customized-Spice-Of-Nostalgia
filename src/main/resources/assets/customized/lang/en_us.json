@@ -1,0 +1,14 @@
+{
+  "command.customized_spice_of_nostalgia.clear_recent_add": "Cleared recentAdd queue for %s.",
+  "command.customized_spice_of_nostalgia.get_food_expectation": "Food expectation for %s: %s.",
+  "command.customized_spice_of_nostalgia.set_food_expectation": "Set food expectation to %s for %s.",
+  "command.customized_spice_of_nostalgia.get_saturation_expectation": "Saturation expectation for %s: %s.",
+  "command.customized_spice_of_nostalgia.set_saturation_expectation": "Set saturation expectation to %s for %s.",
+  "command.customized_spice_of_nostalgia.reset_expectations": "Reset all expectations to initial values for %s",
+  "command.customized_spice_of_nostalgia.failure": "Player does not have PlayerFoodData.",
+
+  "tooltip.customized_spice_of_nostalgia.food_data": "Current Diversity Score：%s Food Expectation：%s Saturation Expectation：%s",
+
+  "fml.menu.mods.info.description.customized_spice_of_nostalgia": "A lightweight mod that adds an intelligent eating penalty system to the vanilla game, encouraging players to prepare higher-tier foods.",
+  "itemGroup.customized_spice_of_nostalgia": "Customized: Spice Of Nostalgia"
+}
