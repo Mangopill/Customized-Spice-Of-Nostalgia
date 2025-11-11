@@ -120,7 +120,7 @@ dependencies {
     compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
     runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
     // Customized
-    implementation "curse.maven:customized-1156112:6628558"
+    implementation "curse.maven:customized-${customized_version}"
 }
 tasks.withType(ProcessResources).configureEach {
     var replaceProperties = [
@@ -143,7 +143,8 @@ tasks.withType(ProcessResources).configureEach {
             jei_version            : jei_version,
             appleskin_version      : appleskin_version,
             patchouli_version      : patchouli_version,
-            curios_version         : curios_version
+            curios_version         : curios_version,
+            customized_version     : customized_version
     ]
     inputs.properties replaceProperties
 
